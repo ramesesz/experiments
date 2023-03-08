@@ -1,0 +1,81 @@
+INFO - Will load model ../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - No target relation specified. Using all relations to generate candidate statements.
+INFO - Generating candidates for relation: P101
+INFO - Generating candidates using random_uniform strategy.
+WARNING - DeprecationWarning: use_default_protocol will be removed in future. Please use corrupt_side argument instead.
+WARNING - You are attempting to use 77951 distinct entities to generate synthetic negatives in the evaluation
+    protocol. This may be unnecessary and will lead to a 'harder' task. Besides, it will lead to a much slower
+    evaluation procedure. We recommended to set the 'corruption_entities' argument to a reasonably sized set
+    of entities. The size of corruption_entities depends on your domain-specific task.
+INFO - Will load model ../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../models/codex_complex.pkl.
+INFO - Will load model ../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False

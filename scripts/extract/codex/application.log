@@ -1,0 +1,216 @@
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ../../../models/codex/codex_complex.pkl.
+INFO - 
+--------- Loss ---------
+INFO - Name : multiclass_nll
+INFO - eta : 30
+INFO - 
+------ Regularizer -----
+INFO - Name : LP
+INFO - lambda : 0.0001
+INFO - p : 3
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 5e-05
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False

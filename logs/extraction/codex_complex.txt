@@ -1,0 +1,45 @@
+-------------------------------------
+STRATEGY             :  random_uniform
+TOTAL TIME           :  0.0
+GENERATED CANDIDATES :  1
+-------------------------------------
+MR     : 1.0
+MRR    : 1.0
+Hits@3 : 1.0
+Hits@10: 1.0
+-------------------------------------
+STRATEGY             :  entity_frequency
+TOTAL TIME           :  0.0
+GENERATED CANDIDATES :  1
+-------------------------------------
+MR     : 1.0
+MRR    : 1.0
+Hits@3 : 1.0
+Hits@10: 1.0
+-------------------------------------
+STRATEGY             :  graph_degree
+TOTAL TIME           :  0.0
+GENERATED CANDIDATES :  1
+-------------------------------------
+MR     : 1.0
+MRR    : 1.0
+Hits@3 : 1.0
+Hits@10: 1.0
+-------------------------------------
+STRATEGY             :  cluster_coefficient
+TOTAL TIME           :  0.0
+GENERATED CANDIDATES :  1
+-------------------------------------
+MR     : 1.0
+MRR    : 1.0
+Hits@3 : 1.0
+Hits@10: 1.0
+-------------------------------------
+STRATEGY             :  cluster_triangles
+TOTAL TIME           :  0.0
+GENERATED CANDIDATES :  1
+-------------------------------------
+MR     : 1.0
+MRR    : 1.0
+Hits@3 : 1.0
+Hits@10: 1.0
