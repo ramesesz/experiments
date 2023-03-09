@@ -189,7 +189,7 @@ def discover_facts(X, model, top_n=10, strategy='random_uniform', max_candidates
         avg_ranks = np.mean(ranks, axis=1)
 
         preds = np.array(avg_ranks) <= top_n
-        print('NEW CANDIDATES : ', len(candidates[preds]))
+        # print('NEW CANDIDATES : ', len(candidates[preds]))
 
         discoveries.append(candidates[preds])
         discovery_ranks.append(avg_ranks[preds])

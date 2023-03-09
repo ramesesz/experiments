@@ -7,9 +7,10 @@ dataset = 'codex'
 embedding = 'transe'
 
 # load dataset
-codex_train = pd.read_csv("../../../datasets/train.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
-codex_valid = pd.read_csv("../../../datasets/valid.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
-codex_test = pd.read_csv("../../../datasets/test.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
+prefix = f"../../../datasets/{dataset}"
+codex_train = pd.read_csv(f"{prefix}/train.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
+codex_valid = pd.read_csv(f"{prefix}/valid.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
+codex_test = pd.read_csv(f"{prefix}/test.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
 codex_filter = np.concatenate([codex_train, codex_valid, codex_test], 0)
 
 model = TransE(k=350,

@@ -26,9 +26,10 @@ dataset = 'codex'
 embedding = 'conve'
 
 # load dataset
-codex_train = pd.read_csv("../../../datasets/train.txt", delim_whitespace=True, names=['s', 'p', 'o'])
-codex_valid = pd.read_csv("../../../datasets/valid.txt", delim_whitespace=True, names=['s', 'p', 'o'])
-codex_test = pd.read_csv("../../../datasets/test.txt", delim_whitespace=True, names=['s', 'p', 'o'])
+prefix = f"../../../datasets/{dataset}"
+codex_train = pd.read_csv(f"{prefix}/train.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
+codex_valid = pd.read_csv(f"{prefix}/valid.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
+codex_test = pd.read_csv(f"{prefix}/test.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
 
 # add reciprocals
 codex_train = create_reciprocals(codex_train)
