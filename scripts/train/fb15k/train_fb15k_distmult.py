@@ -1,20 +1,20 @@
 import os
 import numpy as np
-import pandas as pd
+from ampligraph.datasets import load_fb15k_237
 from ampligraph.latent_features import *
 from ampligraph.utils import save_model
 
-dataset = 'codex'
+dataset = 'fb15k'
 embedding = 'distmult'
 
 # load dataset
-prefix = f"../../../datasets/{dataset}"
-codex_train = pd.read_csv(f"{prefix}/train.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
-codex_valid = pd.read_csv(f"{prefix}/valid.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
-codex_test = pd.read_csv(f"{prefix}/test.txt", delim_whitespace=True, names=['s', 'p', 'o']).to_numpy()
-codex_filter = np.concatenate([codex_train, codex_valid, codex_test], 0)
+fb = load_fb15k_237()
+fb_train = fb["train"]
+fb_valid = fb["valid"][::2]  # for early stopping
+fb_test = fb["test"]
+fb_filter = np.concatenate([fb_train, fb_valid, fb_test], 0)
 
-model = DistMult(k=350,
+model = DistMult(k=300,
                  epochs=4000, eta=50,
                  loss='multiclass_nll',
                  regularizer='LP', regularizer_params={'lambda': 0.0001, 'p': 3},
@@ -22,14 +22,14 @@ model = DistMult(k=350,
                  embedding_model_params={'normalize_ent_emb': False},
                  seed=0, batches_count=100, verbose=True)
 
-early_stopping_params = {'x_valid': codex_valid[::2],
+early_stopping_params = {'x_valid': fb_valid[::2],
                          'criteria': 'mrr',
-                         'x_filter': codex_filter,
+                         'x_filter': fb_filter,
                          'stop_interval': 4,
                          'burn_in': 0,
                          'check_interval': 50}
 
-model.fit(codex_train,
+model.fit(fb_train,
           early_stopping=True,
           early_stopping_params=early_stopping_params
           )
